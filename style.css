@@ -64,6 +64,7 @@ h1 {
   text-align: center;
   background-color: #117376;
   color: white;
+  border-radius: 10px;
 }
 #box1 {
   width: 60%;
