@@ -84,3 +84,8 @@ h1 {
   text-align: center;
   padding: 5px;
 }
+.submit {
+  background: none;
+  border: none;
+  color: white;
+}
