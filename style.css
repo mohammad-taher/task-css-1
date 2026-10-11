@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "yekan";
+}
+@font-face {
+  font-family: "bonyade";
+  src: url(fonts/BonyadeKoodakKoochak/BonyadeKoodakKoochak-Bold.ttf);
+}
+@font-face {
+  font-family: "yekan";
+  src: url(fonts/YekanBakh/YekanBakhFaNum-Bold.ttf);
+}
+h1 {
+  font-family: "bonyade";
+  font-size: 72px;
+}
+#header-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  width: 95%;
+  height: 100px;
+  background-color: #d2f2f0;
+  border-radius: 10px;
+}
+#list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.remove-under {
+  text-decoration: none;
+}
+#academy {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  background-color: #e9e8e8;
+}
+#lower-header {
+  display: flex;
+  justify-content: center;
+  background-color: #d2f2f0;
+  border-radius: 10px;
+  width: 30%;
+  color: #117376;
+}
+#Description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#sign-in {
+  text-align: center;
+  background-color: #117376;
+  color: white;
+}
+#box1 {
+  width: 60%;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.Explanation-Table {
+  display: flex;
+  flex-direction: row;
+  background-color: #e9e8e8;
+  border-radius: 5px;
+  height: 25px;
+  text-align: center;
+  padding: 5px;
+}
