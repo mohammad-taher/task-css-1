@@ -24,6 +24,7 @@ h1 {
   height: 100px;
   background-color: #d2f2f0;
   border-radius: 10px;
+  margin: 0 auto;
 }
 #list {
   display: flex;
@@ -46,14 +47,17 @@ a {
   align-items: center;
   gap: 20px;
   background-color: #e9e8e8;
+  padding: 15px;
 }
 #lower-header {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #d2f2f0;
   border-radius: 10px;
-  width: 30%;
+  width: 300px;
   color: #117376;
+  margin: 0 auto;
 }
 #Description {
   display: flex;
@@ -76,8 +80,9 @@ a {
   flex-direction: column;
   gap: 20px;
   justify-content: center;
+  border-radius: 15px;
 }
-.Explanation-Table {
+/* .Explanation-Table {
   display: flex;
   flex-direction: row;
   background-color: #e9e8e8;
@@ -85,7 +90,22 @@ a {
   height: 25px;
   text-align: center;
   padding: 5px;
+} */
+.Explanation-Table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9e8e8;
+  border-radius: 5px;
+  min-height: 25px;
+  padding: 5px 10px;
 }
+
+.Explanation-Table p {
+  margin: 0;
+}
+
 .submit {
   background: none;
   border: none;
