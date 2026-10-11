@@ -32,7 +32,7 @@ h1 {
   gap: 20px;
   list-style: none;
 }
-.remove-under {
+a {
   text-decoration: none;
 }
 #academy {
